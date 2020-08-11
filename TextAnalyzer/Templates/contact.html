@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .contactform {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            border-radius: 25px;
+            background: linear-gradient(45deg, red, pink, tomato);
+            opacity: 0.7;
+            height: 25rem;
+            width: 25rem;
+            padding: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem auto;
+        }
+
+        .contactform input {
+            margin: 1rem;
+            width: 20rem;
+            height: 5rem;
+            outline: none;
+            border-radius: 25px;
+            padding: 10px;
+            font-size: large;
+            font-family: cursive;
+        }
+
+        .contactform textarea {
+            margin: 1rem;
+            width: 20rem;
+            outline: none;
+            border-radius: 25px;
+            padding: 10px;
+            font-size: large;
+            font-family: cursive;
+
+        }
+
+        .contactform button {
+            margin: 1rem;
+            width: 10rem;
+            height: 2rem;
+            background: green;
+            outline: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        @media only screen and (min-width: 270px) and (max-width: 1450px) {
+            .contactform {
+                width: 90%;
+                display: flex;
+            }
+
+            .contactform input {
+                width: 90%;
+            }
+
+            .contactform textarea {
+                width: 90%;
+            }
+
+            .contactform button {
+                width: 90%;
+            }
+
+        }
+    </style>
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top" style="z-index: 10;">
+        <a class="navbar-brand" href="/">
+            <img class="navbar-brand img-thumbnail" src="https://image.flaticon.com/icons/svg/1162/1162943.svg"
+                style="height:50px; width:60px;" alt="logo">
+            TextAnalyzer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="analyze">Analyze</a>
+                </li>
+                <a class="nav-link nav-item active" href="contact">Contact</a>
+                <a class="nav-link nav-item active" href="https://github.com" target="_blank">Contribute</a>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <form action="submitform" class="contactform" style="z-index: -1;">
+        <input type="text" name="Client Name" id="" placeholder="Your Name">
+        <input type="email" name="Email" id="" placeholder="Your Email ID">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message here"></textarea>
+        <button>Submit</button>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
