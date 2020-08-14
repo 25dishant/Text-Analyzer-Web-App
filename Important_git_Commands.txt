@@ -7,9 +7,31 @@ git add --a --> To add all files to staging area.
 
 git log --> To see how many commits have been made.
 
+git log -p --> To see commits alongwith the changes that have been made.
+
+git log -p <number> --> To see <number> out of the total commits that have been made.
+
+git log --stat --> To see the concise details of the commits that have been made.
+
+git log --pretty=oneline --> To see all the commits in one line.
+
+git log --pretty=short --> To see all the commits in short.
+
+git log --pretty=full --> To see all the commits in full.
+
+git log --since=2.days --> To see the commits since last two days.
+
+git log --since=5.month --> To see the commits since last five month.
+
+git log --pretty=format:"%h -- %an " --> To see the commits in desired format.
+(To know about the placeholders in this command, visit https://git-scm.com/docs/pretty-formats )
+
 rm -rf .git --> To terminate a git repository.
 
 git commit --> To commit the changes made by developer.
+
+git commit --amend --> To amend the commits.
+(press i to write in vim editor,esc+:+wq to exit vim editor)
 
 git clone <url that you want copy the repository from> <desired filename> --> To clone a remote repository.
 
@@ -22,4 +44,11 @@ touch <filename> --> To create a new file.
 You can create a new file named as .gitignore and put the name of some files in it that you want ignore while commiting.
 
 git commit -a -m "Direct Commit" --> To skip the staging area
+(If a file is not in the staging area, we can skip the file that is not being tracked and commit the changes in all other files.)
+
+git rm <filename> --> To remove a file.
+
+git mv <realname> <desiredname> --> To rename a file.
+
+git rm --cached <filename> --> To untrack a file.
 
