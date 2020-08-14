@@ -21,6 +21,5 @@ touch <filename> --> To create a new file.
 
 You can create a new file named as .gitignore and put the name of some files in it that you want ignore while commiting.
 
-Some other changes.
-
+git commit -a -m "Direct Commit" --> To skip the staging area
 
