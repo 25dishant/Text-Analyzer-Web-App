@@ -1,0 +1,26 @@
+git status --> To check the status of a repository.
+
+git init --> To initialize a git repository
+
+git add --a --> To add all files to staging area.
+(It is a multipurpose command that can be used to add an untracked file to tracking area and when the file is modified, they can be added to the staging area)
+
+git log --> To see how many commits have been made.
+
+rm -rf .git --> To terminate a git repository.
+
+git commit --> To commit the changes made by developer.
+
+git clone <url that you want copy the repository from> <desired filename> --> To clone a remote repository.
+
+pwd --> To check present working directory
+
+ls --> To list the content
+
+touch <filename> --> To create a new file.
+
+You can create a new file named as .gitignore and put the name of some files in it that you want ignore while commiting.
+
+Some other changes.
+
+
