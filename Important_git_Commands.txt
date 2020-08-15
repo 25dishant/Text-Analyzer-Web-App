@@ -89,3 +89,9 @@ git config --global alias.<desired short hand> <any command> -->
 	git config --global alias.unstage "restore --staged--"
 	After this file can unstaged by entering:
 	$ git unstage filename)
+
+git checkout -b <BranchName> --> To add a new branch.
+
+git checkout master --> To switch to master branch.
+
+git branch --> To list all the branches.
