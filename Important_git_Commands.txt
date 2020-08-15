@@ -1,3 +1,13 @@
+git config --global user.name "YourName" --> To set your name
+
+git config --global user.email "YourEMail" --> To set your Email.
+
+git config --list --> To list all the setup.
+
+git config user.name --> To see username.
+
+git config user.email --> To see user Email.
+
 git status --> To check the status of a repository.
 
 git init --> To initialize a git repository
@@ -72,3 +82,10 @@ Ensure that SSH-agent is running.
 $ eval $(ssh-agent -s)
 To reveal SSH-key enter:
 $ tail ~/.ssh/id_rsa.pub
+
+git config --global alias.<desired short hand> <any command> -->
+(alias can be used to customise the commands the way you want.)
+(Example: git restore --staged <filename> can be customised as
+	git config --global alias.unstage "restore --staged--"
+	After this file can unstaged by entering:
+	$ git unstage filename)
