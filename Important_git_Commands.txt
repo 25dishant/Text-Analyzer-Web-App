@@ -64,5 +64,11 @@ git remote -v --> To see where to push and pull the code.
 
 git push -u origin master --> To push the code onto github.
 
-I have learnt github.
-I am about watch the magic of git.
+SSH key generation --> (Visit https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent )
+Important commands used in SSH key generation:
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+(Keep pressing the enter.)
+Ensure that SSH-agent is running.
+$ eval $(ssh-agent -s)
+To reveal SSH-key enter:
+$ tail ~/.ssh/id_rsa.pub
