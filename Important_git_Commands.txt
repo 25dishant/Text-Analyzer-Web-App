@@ -52,3 +52,8 @@ git mv <realname> <desiredname> --> To rename a file.
 
 git rm --cached <filename> --> To untrack a file.
 
+git restore --staged <filename> --> To unstage a staged file.
+
+git checkout -- <filename> --> To return back to the last commit.
+
+git checkout -f --> To return back to the last commit.
