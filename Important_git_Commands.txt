@@ -63,3 +63,5 @@ git remote --> To see what our remote repository is.
 git remote -v --> To see where to push and pull the code.
 
 git push -u origin master --> To push the code onto github.
+
+I have learnt github.
