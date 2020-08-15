@@ -57,3 +57,9 @@ git restore --staged <filename> --> To unstage a staged file.
 git checkout -- <filename> --> To return back to the last commit.
 
 git checkout -f --> To return back to the last commit.
+
+git remote --> To see what our remote repository is.
+
+git remote -v --> To see where to push and pull the code.
+
+git push -u origin master --> To push the code onto github.
