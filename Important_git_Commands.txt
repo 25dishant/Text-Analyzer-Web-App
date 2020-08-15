@@ -65,8 +65,4 @@ git remote -v --> To see where to push and pull the code.
 git push -u origin master --> To push the code onto github.
 
 I have learnt github.
-also 
-some 
-lines addeenrgerpnerogne
-ergiebgejrb
-irebrieuh
+I am about watch the magic of git.
