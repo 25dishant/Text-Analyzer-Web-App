@@ -72,7 +72,9 @@ git remote --> To see what our remote repository is.
 
 git remote -v --> To see where to push and pull the code.
 
-git push -u origin master --> To push the code onto github.
+git push -u origin master --> To push the code onto master branch at github.
+
+git push origin <BranchName> --> To push a branch onto github.
 
 SSH key generation --> (Visit https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent )
 Important commands used in SSH key generation:
