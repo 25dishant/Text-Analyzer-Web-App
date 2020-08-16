@@ -95,3 +95,16 @@ git checkout -b <BranchName> --> To add a new branch.
 git checkout master --> To switch to master branch.
 
 git branch --> To list all the branches.
+
+git merge <branchname> --> To merge the files
+
+git branch -v --> To see all the branches with latest commit.
+
+git branch --merged --> To see the merged branches.
+
+git branch --no-merged --> To see unmerged branches.
+
+git branch -d <branchname> --> To delete a branch.(Throws an error if the branch is not merged)
+
+To delete an unmerged branch forcefully, capatilize d, i.e,
+git branch -D <BranchName> --> Even an unmerged file will be deleted.
