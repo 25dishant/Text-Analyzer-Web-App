@@ -76,6 +76,8 @@ git push -u origin master --> To push the code onto master branch at github.
 
 git push origin <BranchName> --> To push a branch onto github.
 
+git push -d origin <BranchName> --> To delete a branch from github.
+
 SSH key generation --> (Visit https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent )
 Important commands used in SSH key generation:
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
